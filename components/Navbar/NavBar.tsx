@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 // styles
-import styles from './NavBar.module.scss';
+import styles from "./NavBar.module.scss";
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import BrandLogo from '../BrandLogo';
+import { usePathname } from "next/navigation";
+import BrandLogo from "../BrandLogo";
+import { Link as ScrollLink } from "react-scroll";
 
 interface ToggleState {
   [key: string]: boolean;
@@ -21,17 +21,17 @@ const NavBar = () => {
   };
 
   const linkList = [
-    { id: 1, title: 'HOME', url: '/' },
-    { id: 2, title: 'ABOUT', url: '/#about' },
-    { id: 3, title: 'TOKENOMICS', url: '/#tokenomics' },
-    { id: 4, title: 'ROADMAP', url: '/#roadmap' },
-    { id: 5, title: 'HOW TO BUY', url: '/#howtobuy' },
+    { id: 1, title: "HOME", url: "/" },
+    { id: 2, title: "ABOUT", url: "about" },
+    { id: 3, title: "TOKENOMICS", url: "tokenomics" },
+    { id: 4, title: "ROADMAP", url: "roadmap" },
+    { id: 5, title: "HOW TO BUY", url: "howtobuy" },
     {
       id: 6,
-      title: 'WHITEPAPER',
-      url: 'https://drippy-inu.gitbook.io/drippy-inu/',
+      title: "WHITEPAPER",
+      url: "https://drippy-inu.gitbook.io/drippy-inu/",
     },
-    { id: 7, title: 'SOCIALS', url: '/#socials' },
+    { id: 7, title: "SOCIALS", url: "socials" },
   ];
 
   return (
@@ -39,12 +39,12 @@ const NavBar = () => {
       <section
         className={`${styles.navContainer} flex flex-row items-center justify-between`}
       >
-        <nav className='flex container flex-row items-center justify-between'>
+        <nav className="flex container flex-row items-center justify-between">
           {/* Logo */}
           <section
             className={` w-full lg:w-4/12 flex flex-row items-center`}
-            data-aos='zoom-out'
-            data-aos-duration='1500'
+            data-aos="zoom-out"
+            data-aos-duration="1500"
           >
             <div className={styles.logo}>
               <BrandLogo />
@@ -52,10 +52,10 @@ const NavBar = () => {
           </section>
           <section
             className={`w-full lg:w-7/12  ${
-              toggle['navbar'] ? styles.navMove : styles.displayNav
+              toggle["navbar"] ? styles.navMove : styles.displayNav
             }`}
           >
-            <aside className='w-full  '>
+            <aside className="w-full  ">
               {/* nav Links */}
 
               <ul
@@ -66,21 +66,26 @@ const NavBar = () => {
                 {linkList.map(({ id, title, url }) => (
                   <li
                     key={id}
-                    className={currentRoute === url ? 'isActive' : 'notActive'}
+                    className={currentRoute === url ? "isActive" : "notActive"}
                   >
-                    {title === 'Academy' ? (
+                    {title === "Academy" ? (
                       <a
-                        onClick={() => handleToggle('navbar')}
+                        onClick={() => handleToggle("navbar")}
                         href={url}
-                        target='_blank'
-                        rel='noreferrer'
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         {title}
                       </a>
                     ) : (
-                      <Link onClick={() => handleToggle('navbar')} href={url}>
+                      <ScrollLink
+                        onClick={() => handleToggle("navbar")}
+                        to={url}
+                        spy={true}
+                        smooth={true}
+                      >
                         {title}
-                      </Link>
+                      </ScrollLink>
                     )}
                   </li>
                 ))}
@@ -89,9 +94,9 @@ const NavBar = () => {
           </section>
           {/* Hambuger icon */}
           <section
-            onClick={() => handleToggle('navbar')}
-            className={toggle['navbar'] ? styles.open : styles.ham}
-            id='navbar'
+            onClick={() => handleToggle("navbar")}
+            className={toggle["navbar"] ? styles.open : styles.ham}
+            id="navbar"
           >
             <span></span>
             <span></span>

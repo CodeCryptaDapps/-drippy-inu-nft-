@@ -81,12 +81,17 @@ export default function Home() {
               </Link>
             ))}
           </figure>
-          <Link className="main-btn rounded-sm font-bold" href="/" >
+          <Link
+            className="main-btn rounded-sm font-bold"
+            href="https://t.me/DrippyXinu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Join Telegram For 24/7 Live Voice Chat (VC)
           </Link>
         </section>
 
-        <small>© 2024 DRIPPYPRC20. ALL RIGHTS RESERVED.</small>
+        <small>© 2024 DRIPPYINU. ALL RIGHTS RESERVED.</small>
       </footer>
     </main>
   );
