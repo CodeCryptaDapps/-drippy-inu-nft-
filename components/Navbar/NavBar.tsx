@@ -68,12 +68,13 @@ const NavBar = () => {
                     key={id}
                     className={currentRoute === url ? "isActive" : "notActive"}
                   >
-                    {title === "Academy" ? (
+                    {title === "WHITEPAPER" ? (
                       <a
                         onClick={() => handleToggle("navbar")}
                         href={url}
                         target="_blank"
                         rel="noreferrer"
+                        className="underline"
                       >
                         {title}
                       </a>

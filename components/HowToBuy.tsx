@@ -126,28 +126,34 @@ const HowToBuy = () => {
               <br />
               <li> Drippy Inu NFTs. </li>
               <li> Tenshi V3 Single Staking Tutorials</li>
-              <li> Defi Education</li>
+              <li> Defi Education 101</li>
+              <li> Defi Zoom Mondays</li>
               <li> Keep Wallet Safe Tutorials</li>
+              <li> Enroll Into Pulsechain</li>
               <li> Enroll Into Pulsechain</li>
               <li>24/7 VC For All Defi Answer</li>
               <li> Defi After Dark Voice Chat (VC)</li>
+              <li> Dumb Money Movie Nights</li>
               <li>Whats Trending Fridays</li>
               <li>Top Defi Picks (ROI Dapps)</li>
-              <li>Bible Study Sundays</li>
+              <li>Crypto Gospel Sundays</li>
               <li>INC Rewards Every 28 Days per NFT</li>
               <li>BNB rewards Every 28 Days per NFT</li>
               <li>NFT Giveaways</li>
               <li>Token Airdrops</li>
+              <li>Pulsechain Token Airdrops</li>
+              <li>TangGang Meet Ups</li>
               <li>NFT Smart Wallets</li>
               <li>Drippy Inu Whale Airdrop</li>
+              <li>Community Sticking Together</li>
             </ul>
             <p>
               Drippy Inu will airdrop its token to NFT holders to be paired with
               WDRIP making a few nft holders a whale in the drippy Inu
               ecosystem.
               <br /> <br />
-              Congratulations! You&apos;ve now made the best investment to
-              educate thy self.
+              Congratulations! You&apos;ve now made a purchased to educate
+              yourself.
             </p>
           </div>
           <h4 className="war">MEME WARS COMING SOON</h4>
