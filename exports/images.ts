@@ -15,6 +15,8 @@ import social1 from '@/public/assets/social1.png';
 import social2 from '@/public/assets/social2.png';
 import social3 from '@/public/assets/social3.png';
 import social4 from '@/public/assets/social4.png';
+import social5 from '@/public/assets/social5.png';
+import social6 from '@/public/assets/social6.png';
 import dripIcon from '@/public/assets/dripIcon.png';
 import drippyIcon from '@/public/assets/drippyIcon.png';
 import drippy from '@/public/assets/drippy.png';
@@ -40,4 +42,6 @@ export const images = {
   social2,
   social3,
   social4,
+  social5,
+  social6,
 };
