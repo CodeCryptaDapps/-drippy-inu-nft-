@@ -23,7 +23,7 @@ const About = () => {
           <h1>ABOUT DRIPPY INU</h1>
 
           <p>
-            "Drippy Inu, the decentralized pride of Drip.Community on
+            &quot;Drippy Inu, the decentralized pride of Drip.Community on
             PulseChain. Drippy Inu pays homage to the endearing droplets of
             wealth, symbolizing the constant flow in our crypto journey. Just
             like the rainmaker, Forex, Drippy Inu is your steadfast companion,
@@ -32,7 +32,7 @@ const About = () => {
             <br /> <br />
             Join us in the embrace of prosperity, laughter through the dips, and
             jubilation during the rips. Let&apos;s make every drop count in the
-            Drip.Community saga!"
+            Drip.Community saga!&quot;
           </p>
 
           <p className='flex items-center gap-3 justify-center mt-10'>
