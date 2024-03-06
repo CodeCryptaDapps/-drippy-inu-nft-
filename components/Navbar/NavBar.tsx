@@ -15,19 +15,19 @@ interface ToggleState {
 const NavBar = () => {
   const currentRoute = usePathname();
   const [toggle, setToggle] = useState<ToggleState>({});
-
+  console.log(currentRoute);
   const handleToggle = (id: string) => {
     setToggle((prev) => ({ ...prev, [id]: !prev[id] }));
   };
 
   const linkList = [
     { id: 1, title: 'HOME', url: '/' },
-    { id: 2, title: 'ABOUT', url: '#about' },
-    { id: 3, title: 'TOKENOMICS', url: '#tokenomics' },
-    { id: 4, title: 'ROADMAP', url: '#roadmap' },
-    { id: 5, title: 'HOW TO BUY', url: '#howtobuy' },
-    { id: 5, title: 'WHITEPAPER', url: '#whitepaper' },
-    { id: 5, title: 'SOCIALS', url: '#socials' },
+    { id: 2, title: 'ABOUT', url: '/#about' },
+    { id: 3, title: 'TOKENOMICS', url: '/#tokenomics' },
+    { id: 4, title: 'ROADMAP', url: '/#roadmap' },
+    { id: 5, title: 'HOW TO BUY', url: '/#howtobuy' },
+    { id: 6, title: 'WHITEPAPER', url: '/#whitepaper' },
+    { id: 7, title: 'SOCIALS', url: '/#socials' },
   ];
 
   return (
