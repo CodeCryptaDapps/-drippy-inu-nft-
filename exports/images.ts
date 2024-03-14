@@ -10,6 +10,18 @@ import nft8 from '@/public/assets/nft8.png';
 import nft9 from '@/public/assets/nft9.png';
 import nft10 from '@/public/assets/nft10.png';
 import nft11 from '@/public/assets/nft11.png';
+import nftdog1 from '@/public/assets/nftdog1.png';
+import nftdog2 from '@/public/assets/nftdog2.png';
+import nftdog3 from '@/public/assets/nftdog3.png';
+import nftdog4 from '@/public/assets/nftdog4.png';
+import nftdog5 from '@/public/assets/nftdog5.png';
+import nftdog6 from '@/public/assets/nftdog6.png';
+import nftdog7 from '@/public/assets/nftdog7.png';
+import nftdog8 from '@/public/assets/nftdog8.png';
+import nftdog9 from '@/public/assets/nftdog9.png';
+import nftdog10 from '@/public/assets/nftdog10.png';
+import nftdog11 from '@/public/assets/nftdog11.png';
+import nftdog12 from '@/public/assets/nftdog12.png';
 import drippyLargeImage from '@/public/assets/drippyLargeImage.png';
 import social1 from '@/public/assets/social1.png';
 import social2 from '@/public/assets/social2.png';
@@ -55,10 +67,10 @@ export const images = {
   nftdog4,
   nftdog5,
   nftdog6,
-  nftdog7
+  nftdog7,
   nftdog8,
   nftdog9,
   nftdog10,
   nftdog11,
-  nftdog12
+  nftdog12,
 };

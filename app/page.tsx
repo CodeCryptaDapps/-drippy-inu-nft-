@@ -2,6 +2,7 @@ import About from '@/components/About';
 import Hero from '@/components/Hero';
 import HowToBuy from '@/components/HowToBuy';
 import JoinCommunity from '@/components/Navbar/JoinCommunity';
+import NfsSlider from '@/components/NfsSlider';
 import Nft from '@/components/Nft';
 import Roadmap from '@/components/Roadmap';
 import Tokenomics from '@/components/Tokenomics';
@@ -55,6 +56,9 @@ export default function Home() {
       <Tokenomics />
       <Roadmap />
       <Nft />
+      <section className='container'>
+        <NfsSlider />
+      </section>
 
       <section className='fxBg'></section>
       <HowToBuy />
