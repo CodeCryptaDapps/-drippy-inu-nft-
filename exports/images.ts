@@ -49,4 +49,16 @@ export const images = {
   social4,
   social5,
   social6,
+  nftdog1,
+  nftdog2,
+  nftdog3,
+  nftdog4,
+  nftdog5,
+  nftdog6,
+  nftdog7
+  nftdog8,
+  nftdog9,
+  nftdog10,
+  nftdog11,
+  nftdog12
 };
