@@ -3,7 +3,6 @@
 import { images } from '@/exports/images';
 import Image from 'next/image';
 import React from 'react';
-import { Link } from 'react-scroll';
 
 const About = () => {
   return (

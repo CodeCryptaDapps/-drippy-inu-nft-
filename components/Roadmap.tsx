@@ -13,20 +13,20 @@ const Roadmap = () => {
           className='w-full md:w-[32%] lg:w-[23%] flex flex-col items-center md:items-start'
         >
           <h4>PHASE 01</h4>
+          <li>✅ REHYPE</li>
           <li>✅ DRIPPY INU NFTS</li>
           <li>✅ DRIPPY INU TOKEN</li>
           <li>✅ DRIPPY INU AIRDROP</li>
-          <li>✅ REHYPOTHECATION</li>
         </ul>
         <ul
           data-aos='fade-left'
           className='w-full md:w-[32%] lg:w-[23%] flex flex-col items-center md:items-start'
         >
           <h4>PHASE 02</h4>
-          <li>✅ DRIPX 3500 STAKING</li>
-          <li>✅ INC & BNB REWARDS</li>
+          <li>✅ WDRIP/DRIPPY INU</li>
           <li>✅ PLS FARM REWARDS</li>
-          <li>✅ WDRIP/DRIP INU</li>
+          <li>✅ INC & BNB REWARDS</li>
+          <li>✅ GENERATE DRIPX INERT MINERS</li>
         </ul>
         <ul
           data-aos='fade-left'

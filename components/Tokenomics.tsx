@@ -12,9 +12,9 @@ const Tokenomics = () => {
             ✅ DRIPPY NFTS POWERS SPARKSWAP, PULSEX YIELD FARMING & DRIPX INERT
             MINERS
           </li>
-          <li>✅ DRIPPY INU NFTS POWERS DRIPPY INU TOKEN</li>
+          <li>✅ DRIPPY INU NFTS POWERS DRIPPY INU TOKENS</li>
           <li>✅ DRIPPY INU NFTS RECEIVE REWARDS </li>
-          <li>✅ ehype: Pumps Liquidity For Inu’s</li>
+          <li>✅ Rehype: Pumps Liquidity For Inu’s</li>
           <li>✅ Holders: + </li>
           <li>✅ Buy Tax: 0% </li>
           <li>✅ Sell Tax: 0% </li>

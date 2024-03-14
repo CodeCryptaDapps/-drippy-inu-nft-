@@ -46,7 +46,7 @@ const HowToBuy = () => {
             </a>
           </div>
           <figure>
-            <Image src={dripImg} alt='' />
+            <Image src={images.drippyLargeImage} alt='' />
           </figure>
 
           <ul className='claims'>
