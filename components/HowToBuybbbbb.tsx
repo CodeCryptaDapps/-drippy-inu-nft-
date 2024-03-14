@@ -1,7 +1,6 @@
 import { images } from '@/exports/images';
 import Image from 'next/image';
 import React from 'react';
-import dripImg from '../public/assets/drippyBig.png';
 
 const HowToBuy = () => {
   return (
@@ -45,59 +44,84 @@ const HowToBuy = () => {
               MINT ON BSC
             </a>
           </div>
-          <figure>
-            <Image src={dripImg} alt='' />
-          </figure>
-
-          <ul className='claims'>
-            <div className=' flex flex-wrap justify-between items-center my-4'>
-              <button className='main-btn w-full md:w-5/12'>
-                CLAIM DRIPPY INU TOKEN
-              </button>
-              <li className='list-disc w-full md:w-6/12'>
-                MUST OWN MINIMUM 1 NFT ON BSC OR PULSECHAIN
-              </li>
-            </div>
-            <div className='flex flex-wrap justify-between items-center my-4'>
-              <button className='main-btn w-full md:w-5/12'>
-                CLAIM INC OR PLS REWARDS
-              </button>
-              <li className='list-disc w-full md:w-6/12'>
-                MUST OWN MINIMUM 1 NFT ON BOTH CHAINS TO EARN
-              </li>
-            </div>
-            <div className='flex flex-wrap justify-between items-center my-4'>
-              <button className='main-btn w-full md:w-5/12'>
-                CLAIM BNB REWARDS
-              </button>
-              <li className='list-disc w-full md:w-6/12'>
-                MUST OWN MINIMUM 1 NFT ON BOTH CHAINS TO EARN
-              </li>
-            </div>
-            <div className='flex flex-wrap justify-between items-center my-4'>
-              <button className='main-btn w-full md:w-5/12'>
-                UPGRADE DRIPPY INU NFT
-              </button>
-              <li className='list-disc w-full md:w-6/12'>
-                UPGRADE TO A NFT SMART WALLET FOR EXTRA REWARDS
-              </li>
-            </div>
-            <div className='flex flex-wrap justify-between items-center my-4'>
-              <button className='main-btn w-full md:w-5/12'>
-                DRIPPY INU HIGH & LOW ROI DAPPS
-              </button>
-              <li className='list-disc w-full md:w-6/12'>
-                &quot;DUMB MONEY SAGA”&quot;
-              </li>
-            </div>
-
-            <li className='mt-10'>
+          <ul>
+            <li className='my-3'>
+              <h4>
+                <strong>STEP 1:</strong> SET UP A CRYPTO WALLET
+              </h4>
+              Before you can buy Drippy Inu NFTs, you need a wallet that
+              supports the Binance SmartChain network (BSC). One popular option
+              is MetaMask. You can find this plug-in via the Google App Store.
+            </li>
+            <li className='my-3'>
+              <h4>
+                <strong>STEP 2:</strong>BUY BNB ON AN EXCHANGE
+              </h4>
+              Buy the desired amount of BNB on the exchange of your preference.
+              (Binance, Coinbase, Gemini, etc.)
+            </li>
+            <li className='my-3'>
+              <h4>
+                <strong>STEP 3:</strong> SEND BNB TO YOUR METAMASK WALLET
+              </h4>
+              Make sure you are pasting your wallet address. Double check.
+            </li>
+            <li className='my-3'>
               <h4 className='mb-3'>
-                MAKE MEMES AND SHARE THEM WITH THE COMMUNITY
+                <strong>STEP 4:</strong> Connect MetaMask to Drippy Inu NFT
+                Marketplace
+              </h4>
+              <span className='underline'>
+                1. Visit Drippy Inu NFT Buy button on this website:
+              </span>
+              <ul className='list-disc pl-10'>
+                <li className='underline'> Connect MetaMask:</li>
+                <li className='underline'>
+                  {' '}
+                  Click on &quot;Connect Wallet&quot;.
+                </li>
+                <li className='underline'>
+                  {' '}
+                  Choose MetaMask and authorize the connection.
+                </li>
+              </ul>
+            </li>
+
+            <li className='my-3'>
+              <h4 className='mb-3'>
+                <strong>STEP 5:</strong> Buy Drippy Inu NFT
+              </h4>
+              1. Visit Drippy Inu NFT Buy button on this website:
+              <ul className='list-disc pl-10 mb-5'>
+                <li> Drippy Inu NFTs. </li>
+                <li> Select and Purchase: </li>
+                <li> Click on the purchase option. </li>
+                <li> Confirm the transaction in MetaMask.</li>
+                <li> Wait for Confirmation: </li>
+                <li>
+                  {' '}
+                  Wait for the transaction to be confirmed on the blockchain.{' '}
+                </li>
+                <li> View NFT in MetaMask: </li>
+                <li>
+                  Once confirmed, you&apos;ll see the Drippy Inu NFT in your
+                  MetaMask wallet.{' '}
+                </li>
+              </ul>
+              Congratulations! You&apos;ve successfully set up MetaMask,
+              purchased BNB on Binance Smart Chain, and acquired a Drippy Inu
+              NFT. Ensure that you follow security best practices and only
+              interact with reputable platforms.
+            </li>
+
+            <li className='my-3'>
+              <h4 className='mb-3'>
+                <strong>STEP 6:</strong> MAKE MEMES AND SHARE THEM WITH THE
+                COMMUNITY
               </h4>
               Use{' '}
               <span className='underline'>
-                $PLS $DRIPPY #DRIPPYINU #DRIPX #BNB
+                #DRIPPYINU $DRIPPY #DRIPX $PLS #BNB
               </span>{' '}
               & tag the official Twitter account{' '}
               <span className='underline'>@DRIPPYINU</span>
@@ -110,7 +134,7 @@ const HowToBuy = () => {
         >
           <div>
             <h2 className='mb-3'>Whats inside?</h2>
-            {/* 1. Visit Drippy Inu NFT Buy button on this website: */}
+            1. Visit Drippy Inu NFT Buy button on this website:
             <ul className='list-disc pl-10 mb-5'>
               <br />
               <li> Drippy Inu NFTs. </li>
@@ -125,19 +149,17 @@ const HowToBuy = () => {
               <li> Dumb Money Movie Nights</li>
               <li>Whats Trending Fridays</li>
               <li>Top Defi Picks (ROI Dapps)</li>
-              <li>Preach Crypto Sundays</li>
-              <li>INC Rewards </li>
-              <li>BNB rewards </li>
+              <li>Crypto Gospel Sundays</li>
+              <li>INC Rewards Every 28 Days per NFT</li>
+              <li>BNB rewards Every 28 Days per NFT</li>
               <li>NFT Giveaways</li>
-              <li>Seasonal Airdrops</li>
+              <li>Token Airdrops</li>
               <li>Pulsechain Token Airdrops</li>
               <li>TangGang Meet Ups</li>
               <li>NFT Smart Wallets</li>
               <li>Drippy Inu Whale Airdrop</li>
               <li>Community Sticking Together</li>
-              <li>Hiring roles in development and education (Web3)</li>
             </ul>
-
             <p>
               Drippy Inu will airdrop its token to NFT holders to be paired with
               WDRIP making a few nft holders a whale in the drippy Inu

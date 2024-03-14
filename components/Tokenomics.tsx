@@ -7,14 +7,14 @@ const Tokenomics = () => {
         <h1 data-aos='fade-right'>💸 TOKENOMICS 💸</h1>
 
         <ul data-aos='fade-left'>
-          <li>✅ DRIPPY INU NFT COLLECTION: 10000</li>
+          <li>✅ DRIPPY INU NFT COLLECTION: 20000</li>
           <li>
-            ✅ DRIPPY NFTS POWERS SPARKSWAP, PULSEX FARMING & DRIPX MINERS/
-            STAKES
+            ✅ DRIPPY NFTS POWERS SPARKSWAP, PULSEX YIELD FARMING & DRIPX INERT
+            MINERS
           </li>
-          <li>✅ DRIPPY INU NFTS RECEIVE REWARDS IN INC & BNB</li>
-          <li>✅ DRIPPY INU NFTS POWERS SPARKSWAP YIELD FARMING</li>
-          <li>✅ DRIPPY INU TOKEN SUPPLY: 369,369,369</li>
+          <li>✅ DRIPPY INU NFTS POWERS DRIPPY INU TOKEN</li>
+          <li>✅ DRIPPY INU NFTS RECEIVE REWARDS </li>
+          <li>✅ ehype: Pumps Liquidity For Inu’s</li>
           <li>✅ Holders: + </li>
           <li>✅ Buy Tax: 0% </li>
           <li>✅ Sell Tax: 0% </li>

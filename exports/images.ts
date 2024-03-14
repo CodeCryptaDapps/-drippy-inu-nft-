@@ -20,9 +20,14 @@ import social6 from '@/public/assets/social6.png';
 import dripIcon from '@/public/assets/dripIcon.png';
 import drippyIcon from '@/public/assets/drippyIcon.png';
 import drippy from '@/public/assets/drippy.png';
+import orange from '@/public/assets/orange.png';
+
+import thd from '@/public/assets/thirdWeb.png';
 
 export const images = {
   heroImage,
+  thd,
+  orange,
   drippy,
   drippyIcon,
   dripIcon,

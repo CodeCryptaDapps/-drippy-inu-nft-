@@ -147,6 +147,10 @@ small {
   background-size: cover;
 }
 
+.claims li {
+  font-size: 14px;
+}
+
 /* === Media Query === */
 
 @media screen and (max-width: 900px) {
