@@ -8,10 +8,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const NfsSlider = () => {
   const nftData = [
-    { imageUrl: images.nft1 },
+    // { imageUrl: images.nft1 },
     { imageUrl: images.nft2 },
-    { imageUrl: images.nft3 },
-    { imageUrl: images.nft4 },
+    // { imageUrl: images.nft3 },
+    // { imageUrl: images.nft4 },
     { imageUrl: images.nft5 },
     { imageUrl: images.nft6 },
     { imageUrl: images.nft7 },

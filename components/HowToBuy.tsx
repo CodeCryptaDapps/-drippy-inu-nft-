@@ -1,9 +1,21 @@
+'use client';
+
 import { images } from '@/exports/images';
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import dripImg from '../public/assets/drippyBig.png';
 
 const HowToBuy = () => {
+  const [isHovered, setIsHovered] = useState<{ [key: string]: boolean }>({});
+
+  const handleHover = (id: string) => {
+    setIsHovered((prev) => ({ ...prev, [id]: true }));
+  };
+
+  const handleMouseOut = (id: string) => {
+    setIsHovered((prev) => ({ ...prev, [id]: false }));
+  };
+
   return (
     <section id='howtobuy' className='container my-[100px]'>
       <hgroup data-aos='fade-up' className='text-center'>
@@ -51,44 +63,86 @@ const HowToBuy = () => {
 
           <ul className='claims'>
             <div className=' flex flex-wrap justify-between items-center my-4'>
-              <button className='main-btn w-full md:w-5/12'>
-                CLAIM DRIPPY INU TOKEN
+              <button
+                id='btn1'
+                className='main-btn w-full md:w-5/12'
+                onMouseEnter={() => handleHover('btn1')}
+                onMouseLeave={() => handleMouseOut('btn1')}
+              >
+                {isHovered['btn1'] ? 'DRIPPING SOON' : 'CLAIM DRIPPY INU TOKEN'}
               </button>
               <li className='list-disc w-full md:w-6/12'>
                 MUST OWN MINIMUM 1 NFT ON BSC OR PULSECHAIN
               </li>
             </div>
             <div className='flex flex-wrap justify-between items-center my-4'>
-              <button className='main-btn w-full md:w-5/12'>
-                CLAIM INC OR PLS REWARDS
+              <button
+                id='btn2'
+                className='main-btn w-full md:w-5/12'
+                onMouseEnter={() => handleHover('btn2')}
+                onMouseLeave={() => handleMouseOut('btn2')}
+              >
+                {isHovered['btn2']
+                  ? 'DRIPPING SOON'
+                  : 'CLAIM INC OR PLS REWARDS'}
               </button>
               <li className='list-disc w-full md:w-6/12'>
                 MUST OWN MINIMUM 1 NFT ON BOTH CHAINS TO EARN
               </li>
             </div>
             <div className='flex flex-wrap justify-between items-center my-4'>
-              <button className='main-btn w-full md:w-5/12'>
-                CLAIM BNB REWARDS
+              <button
+                id='btn3'
+                className='main-btn w-full md:w-5/12'
+                onMouseEnter={() => handleHover('btn3')}
+                onMouseLeave={() => handleMouseOut('btn3')}
+              >
+                {isHovered['btn3'] ? 'DRIPPING SOON' : 'CLAIM BNB REWARDS'}
               </button>
               <li className='list-disc w-full md:w-6/12'>
                 MUST OWN MINIMUM 1 NFT ON BOTH CHAINS TO EARN
               </li>
             </div>
             <div className='flex flex-wrap justify-between items-center my-4'>
-              <button className='main-btn w-full md:w-5/12'>
-                UPGRADE DRIPPY INU NFT
+              <button
+                id='btn4'
+                className='main-btn w-full md:w-5/12'
+                onMouseEnter={() => handleHover('btn4')}
+                onMouseLeave={() => handleMouseOut('btn4')}
+              >
+                {isHovered['btn4'] ? 'UPGRADE SOON' : 'UPGRADE DRIPPY INU NFT'}
               </button>
               <li className='list-disc w-full md:w-6/12'>
                 UPGRADE TO A NFT SMART WALLET FOR EXTRA REWARDS
               </li>
             </div>
             <div className='flex flex-wrap justify-between items-center my-4'>
-              <button className='main-btn w-full md:w-5/12'>
-                DRIPPY INU HIGH & LOW ROI DAPPS
+              <button
+                id='btn5'
+                className='main-btn w-full md:w-5/12'
+                onMouseEnter={() => handleHover('btn5')}
+                onMouseLeave={() => handleMouseOut('btn5')}
+              >
+                {isHovered['btn5']
+                  ? 'EARN MORE DRIPPY INU'
+                  : 'NFT STAKING FOR REWARDS'}
               </button>
               <li className='list-disc w-full md:w-6/12'>
                 &quot;DUMB MONEY SAGA”&quot;
               </li>
+            </div>
+
+            <div className='flex flex-wrap justify-between items-center my-4'>
+              <button
+                id='btn6'
+                onMouseEnter={() => handleHover('btn6')}
+                onMouseLeave={() => handleMouseOut('btn6')}
+                className='main-btn w-full md:w-5/12'
+              >
+                {isHovered['btn6']
+                  ? 'CHECK TELEGRAM FOR INFO'
+                  : '5 NFT PER DAO ENTRY'}
+              </button>
             </div>
 
             <li className='mt-10'>
