@@ -27,10 +27,9 @@ const About = () => {
           <p>
             &quot;Drippy Inu, the decentralized pride of Drip.Community on
             PulseChain. Drippy Inu pays homage to the endearing droplets of
-            wealth, symbolizing the constant flow in our crypto journey. Just
-            like the rainmaker, Forex, Drippy Inu is your steadfast companion,
-            smiling through the bullish and bearish moments.Thanks to
-            Drip.Community-
+            wealth, symbolizing the constant flow in our crypto journey. Drippy
+            Inu is your steadfast companion, smiling through the bullish and
+            bearish moments.Thanks to Drip.Community-
             <br /> <br />
             Join us in the embrace of prosperity, laughter through the dips, and
             jubilation during the rips. Let&apos;s make every drop count in the
@@ -70,16 +69,14 @@ const About = () => {
               MINT ON BSC
             </a>
           </div>
-          <p className='mt-8'>
+          <p className='mt-8 w-full md:w-11/12 lg:w-8/12 mx-auto'>
             If you mint NFTs on the Binance Smart Chain (BSC), you&apos;ll get a
             Drippy Inu Airdrop to the same wallet. To claim it, switch to the
-            PulseChain network and click the
-            <br />
-            &quot;Claim Airdrop&quot; button.
+            PulseChain network and click the &quot;Claim Airdrop&quot; button.
           </p>
         </div>
 
-        <figure className='absolute bottom-0 right-[5%] md:right-[-20%] w-[20%] lg:w-[auto]'>
+        <figure className='absolute bottom-[15%] md:bottom-0  right-[5%] md:right-[-20%] w-[20%] lg:w-[auto]'>
           <Image
             src={images.drippy}
             alt=''
