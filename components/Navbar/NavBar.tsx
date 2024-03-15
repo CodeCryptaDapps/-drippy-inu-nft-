@@ -44,13 +44,13 @@ const NavBar = () => {
         <nav className='flex container flex-row items-center justify-between'>
           {/* Logo */}
           <section
-            className={` w-full lg:w-4/12 flex flex-row items-center`}
+            className={` w-8/12 lg:w-3/12 flex flex-row items-center`}
             data-aos='zoom-out'
             data-aos-duration='1500'
           >
-            <div className={styles.logo}>
-              <BrandLogo />
-            </div>
+            {/* <div className={styles.logo}> */}
+            <BrandLogo />
+            {/* </div> */}
           </section>
           <section
             className={`w-full lg:w-7/12  ${
@@ -96,14 +96,16 @@ const NavBar = () => {
             </aside>
           </section>
           {/* Hambuger icon */}
-          <section
-            onClick={() => handleToggle('navbar')}
-            className={toggle['navbar'] ? styles.open : styles.ham}
-            id='navbar'
-          >
-            <span></span>
-            <span></span>
-            <span></span>
+          <section className='w-1/12 flex lg:hidden'>
+            <div
+              onClick={() => handleToggle('navbar')}
+              className={toggle['navbar'] ? styles.open : styles.ham}
+              id='navbar'
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </section>
         </nav>
       </section>
