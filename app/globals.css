@@ -114,7 +114,7 @@ small {
 
 .fxBg {
   margin: 1em 0;
-  height: 550px;
+  height: 350px;
   background: url('../public/assets/heroImage.png') center center no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -165,11 +165,11 @@ small {
 
   .fxBg {
     margin: 1em 0;
-    height: 250px;
+    height: 200px;
     background: green url('../public/assets/heroImage.png') center center
       no-repeat;
     background-attachment: fixed;
-    background-size: 100% 90%;
+    background-size: cover;
   }
 }
 
@@ -179,6 +179,6 @@ small {
     height: 150px;
     background: url('../public/assets/heroImage.png') center center no-repeat;
     background-attachment: fixed;
-    background-size: 100% 90%;
+    background-size: cover;
   }
 }
