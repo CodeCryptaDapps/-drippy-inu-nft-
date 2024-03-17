@@ -29,7 +29,7 @@ const NavBar = () => {
     {
       id: 6,
       title: 'WHITEPAPER',
-      url: 'https://drippy-inu.gitbook.io/drippy-inu-and-the-dog-pound-5',
+      url: 'https://drippy-inu.gitbook.io/drippy-inu-and-the-dog-pound-v1-1',
       // url: 'https://drippy-inu.gitbook.io/drippy-inu/',
     },
     { id: 7, title: 'VAULT', url: '#' },
