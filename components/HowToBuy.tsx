@@ -87,7 +87,7 @@ const HowToBuy = () => {
                   : 'CLAIM INC OR PLS REWARDS'}
               </button>
               <li className='list-disc w-full md:w-6/12'>
-                MUST OWN MINIMUM 1 NFT ON BOTH CHAINS TO EARN
+                MUST OWN MINIMUM 1 NFT ON PULSECHAIN TO EARN
               </li>
             </div>
             <div className='flex flex-wrap justify-between items-center my-4'>
@@ -97,10 +97,10 @@ const HowToBuy = () => {
                 onMouseEnter={() => handleHover('btn3')}
                 onMouseLeave={() => handleMouseOut('btn3')}
               >
-                {isHovered['btn3'] ? 'DRIPPING SOON' : 'CLAIM BNB REWARDS'}
+                {isHovered['btn3'] ? 'DRIPPING SOON' : 'CLAIM DRIP REWARDS'}
               </button>
               <li className='list-disc w-full md:w-6/12'>
-                MUST OWN MINIMUM 1 NFT ON BOTH CHAINS TO EARN
+                MUST OWN MINIMUM 1 NFT ON BSC TO EARN
               </li>
             </div>
             <div className='flex flex-wrap justify-between items-center my-4'>
@@ -201,7 +201,7 @@ const HowToBuy = () => {
               yourself.
             </p>
           </div>
-          <h4 className='war'>MEME WARS COMING SOON</h4>
+          <h4 className='war'>LET THE SAGA BEGIN</h4>
         </aside>
       </section>
     </section>

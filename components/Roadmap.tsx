@@ -23,9 +23,9 @@ const Roadmap = () => {
           className='w-full md:w-[32%] lg:w-[23%] flex flex-col items-center md:items-start'
         >
           <h4>PHASE 02</h4>
+          <li>✅ DRIP REWARDS</li>
           <li>✅ WDRIP/DRIPPY INU</li>
           <li>✅ PLS FARM REWARDS</li>
-          <li>✅ INC & BNB REWARDS</li>
           <li>✅ GENERATE DRIPX INERT MINERS</li>
         </ul>
         <ul
