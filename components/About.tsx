@@ -47,7 +47,7 @@ const About = () => {
 
           <div className='my-7 '>
             <a
-              href='https://mint.launchifi.xyz/collections/0xcC827795BF764895533a1076cD74bcFe0BFdB240?chain=369#top'
+              href='https://mint.launchifi.xyz/collections/0xcb62C01EE6122246A1818543E8088FceEf2c0b80?chain=369#top'
               target='_blank'
               rel='noreferrer'
               className='main-btn w-full mx-auto '
@@ -61,7 +61,7 @@ const About = () => {
           <p className='my-5'>or</p>
           <div>
             <a
-              href='https://mint.launchifi.xyz/collections/0xF9a9aC457354b4868dACE87dE1D36A221BE7244e?chain=56#top'
+              href='https://mint.launchifi.xyz/collections/0xB02cf71c3bF8FF08Ac39C686a5f3C71aaD1df09C?chain=56#top'
               target='_blank'
               rel='noreferrer'
               className='main-btn'
